@@ -25,7 +25,8 @@
     self.window.backgroundColor = [UIColor orangeColor];
     //把当前的window作为程序的主window显示出来
     [self.window makeKeyAndVisible];
-    NSLog(@"1");
+    NSLog(@"2");
+    NSLog(@"2");
     TestViewController *VC = [[TestViewController alloc] init];
     BaseNavigationController *NVC = [[BaseNavigationController alloc] initWithRootViewController:VC];
     self.window.rootViewController = NVC;
